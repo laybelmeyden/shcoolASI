@@ -1,3 +1,5 @@
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="assets/css/materialize/js/materialize.min.js"></script>
-      <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/isotope-docs.min.js?6"></script>
+    <script src="assets/js/main.js"></script>

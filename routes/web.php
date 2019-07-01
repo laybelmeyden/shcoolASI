@@ -13,23 +13,11 @@
 
 
 
-Route::get('/', 'MainController@index');
-
-Route::get('/contact', 'MainController@contact');
-
-Route::get('/about', 'MainController@about');
-
-Route::get('/newws', 'MainController@newws');
-
-Route::get('/project', 'MainController@project');
-
-Route::get('/new{solo}', 'MainController@newsolo');
-
-Route::get('/project{solo}', 'MainController@projectsolo');
-
-Route::post('/contacts', 'MainController@contacts');
-
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Auth::routes();
+
+Route::get('/', 'Maincontroller@main')->name('home');
