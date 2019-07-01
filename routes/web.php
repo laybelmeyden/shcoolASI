@@ -12,7 +12,7 @@
 */
 
 
-
+Route::get('/', 'MainController@main')->name('home');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
@@ -20,4 +20,4 @@ Route::group(['prefix' => 'admin'], function () {
 
 Auth::routes();
 
-Route::get('/', 'Maincontroller@main')->name('home');
+
