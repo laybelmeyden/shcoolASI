@@ -20,4 +20,7 @@ Route::group(['prefix' => 'admin'], function () {
 
 Auth::routes();
 
+Route::post('/footerform', 'MainController@footerform');
+Route::get('/new{solo}', 'MainController@new_solo');
+
 

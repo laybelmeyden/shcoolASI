@@ -2,23 +2,21 @@
 
 @section('content')
 
-<div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
+<div id="fh5co-hero-carousel" class="carousel slide header crsl_one" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
 
-                <img class="d-block w-100 home-bg" alt="home-bg" src="assets/img/home-bg.png">
+                <img class="d-block w-100 home-bg" src="assets/img/img221.png">
 
                 <div class="carousel-caption d-md-block">
-                    <p class="frst-hrd">Everyone is Photogenic</p>
-                    <h5>Today’s SPECIAL MOMENTS.</h5>
-                    <p>Creating a timeless look, coupled with a flawless moment</p>
+                    <h1>Интерактивная школа волонтеров краеведческой работы</h1>
+                    <h1>Сибирского федерального округа</h1>
 
                 </div>
 
 
             </div>
             <div class="scroll-button">
-                <p>Scroll down to see more...</p>
                 <a href="#about-us" class="page-scroll">
                     <img src="assets/img/arrows-down.png" alt="arrow down" />
                 </a>
@@ -49,13 +47,7 @@
 
                     <div class="owl-carousel owl-carousel1 owl-theme">
                         <div>
-                            <img src="assets/img/slide.png" alt="" class="img-fluid" />
-                        </div>
-                        <div>
-                            <img src="assets/img/slide.png" alt="" class="img-fluid" />
-                        </div>
-                        <div>
-                            <img src="assets/img/slide.png" alt="" class="img-fluid" />
+                            <img src="assets/img/Penetration-Testing-vs-Vulnerability-Scanning.jpg" alt="" class="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -87,52 +79,28 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid fh5co-news" id="news">
+    <div class="container-fluid fh5co-news" id="news_1">
         <div class="container">
-            <h2>Мероприятия</h2>
+            <h2>Новости</h2>
             <div class="row">
                 <div class="owl-carousel owl-carousel2 owl-theme">
+                @foreach ($news as $new)
+                    <a href="/new{{ $new->id }}">
                     <div>
-                        <div class="card text-center"> <img class="card-img-top" src="assets/img/news1.png" alt="">
+                        <div class="card text-center"> <img class="card-img-top" src="/storage/{{ $new->img }}" alt="">
                             <div class="card-body text-left pr-0 pl-0">
-                                <h5>How to take a Awosome photo Of
-                                    Groups! </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                <h5>{{ $new -> main_title}}</h5>
+                                <p class="card-text">{{ $new -> mini_title }}</p>
                             </div>
                         </div>
                     </div>
-
-                    <div>
-                        <div class="card text-center"> <img class="card-img-top" src="assets/img/news2.png" alt="">
-                            <div class="card-body text-left pr-0 pl-0">
-                                <h5>How to take a Awosome photo Of
-                                    Groups! </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="card text-center"> <img class="card-img-top" src="assets/img/news3.png" alt="">
-                            <div class="card-body text-left pr-0 pl-0">
-                                <h5>How to take a Awosome photo Of
-                                    Groups! </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                            </div>
-                        </div>
-                    </div>
-
+                    </a>
+                @endforeach
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid fh5co-news" id="news">
+    <!-- <div class="container-fluid fh5co-news" id="news">
         <div class="container">
             <h2>Эксперты</h2>
             <div class="row">
@@ -176,6 +144,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 @endsection
