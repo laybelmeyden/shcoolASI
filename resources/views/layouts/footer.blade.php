@@ -30,15 +30,15 @@
                             <form action="/footerform" method="POST">
                             {{ csrf_field() }}
                             <tr>
-                                <td><input type="text" name="name123" class="form-control" placeholder="Ваше имя">
+                                <td><input type="text" name="name123" class="form-control" placeholder="Ваше имя" required>
                                 </td>
 
-                                <td><input type="text" name="email" class="form-control" placeholder="Ваша почта">
+                                <td><input type="text" name="email" class="form-control" placeholder="Ваша почта" required>
                                 </td>
                             </tr>
 
                             <tr>
-                                <td colspan="2"><textarea name="mantext" class="form-control" placeholder="Ваше сообщение"></textarea>
+                                <td colspan="2"><textarea name="mantext" class="form-control" placeholder="Ваше сообщение" required></textarea>
                                 </td>
                             </tr>
                             <tr>
