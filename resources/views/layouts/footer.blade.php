@@ -33,7 +33,7 @@
                                 <td><input type="text" name="name123" class="form-control" placeholder="Ваше имя" required>
                                 </td>
 
-                                <td><input type="text" name="email" class="form-control" placeholder="Ваша почта" required>
+                                <td><input type="email" name="email" class="form-control" placeholder="Ваша почта" required>
                                 </td>
                             </tr>
 
