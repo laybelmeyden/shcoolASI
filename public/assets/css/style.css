@@ -1113,6 +1113,19 @@ footer.fh5co-footer .social-links li a {
     border-top: 1px solid #f7f7f7;
 }
 
+.p30 {
+    padding: 15px;
+}
+
+.pow {
+    margin-top: 40px;
+}
+
+.project_info {
+    color: black !important;
+    font-size: 18px !important;
+}
+
 .form-box input[type="text"],
 .form-box input[type="email"],
 .form-box textarea {
