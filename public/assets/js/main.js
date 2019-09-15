@@ -1,104 +1,28 @@
-;
-(function() {
-
-    'use strict';
-
-    var carousels = function() {
-        jQuery(".owl-carousel1").owlCarousel({
-            loop: false,
-            center: true,
-            margin: 0,
-            responsiveClass: true,
-            nav: false,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false
-                },
-                600: {
-                    items: 1,
-                    nav: false
-                },
-                1000: {
-                    items: 1,
-                    nav: true,
-                    loop: false
-                }
+$(document).ready(function() {
+    $(".owl-carousel").owlCarousel({
+        loop: false,
+        nav: true,
+        dots: false,
+        navText: ["", ""],
+        responsive: {
+            0: {
+                items: 1
+            },
+            1000: {
+                items: 2
+            },
+            1200: {
+                items: 3
             }
-        });
-
-        jQuery(".owl-carousel2").owlCarousel({
-            loop: false,
-            center: true,
-            margin: 30,
-            responsiveClass: true,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
-                },
-                600: {
-                    items: 2,
-                    nav: true,
-                    margin: 10,
-                    center: false,
-                },
-                1000: {
-                    items: 3,
-                    nav: true,
-                    loop: false
-                }
-            }
-        });
-    }
-
-
-    var isotope = function() {
-        var $container = $('.portfolioContainer');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-
-        $('.portfolioFilter a').click(function() {
-            $('.portfolioFilter .active').removeClass('active');
-            $(this).addClass('active');
-
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
-    };
-
-    var navbar = function() {
-        $(window).scroll(function() {
-                $("nav.navbar").offset().top > -70 ? $(".navbar-fixed-top").addClass("top-nav-collapse") : $(".navbar-fixed-top").removeClass("top-nav-collapse")
-            }),
-            $(function() {
-                $("a.page-scroll").bind("click", function(a) {
-                    var o = $(this);
-                    $("html, body").stop().animate({ scrollTop: $(o.attr("href")).offset().top - 58 }, 1e3), a.preventDefault()
-                })
-            });
-    };
-
-    (function($) {
-        carousels();
-        isotope();
-        navbar();
-    })(jQuery);
-
-
-}());
+        }
+    });
+});
+if (window.matchMedia("(max-width: 920px)").matches) {
+    shape = document.getElementsByTagName("svg")[0];
+    shape.setAttribute("viewBox", "-10 300 550 400");
+};
+let url = window.location.href;
+if (url.indexOf('http://127.0.0.1:8000/new') != -1) {
+    document.querySelector("nav").style.background = "rgba(250, 240, 231, 0.65)";
+    document.querySelector("nav").classList.add("nav_12");
+};

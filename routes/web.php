@@ -23,4 +23,7 @@ Auth::routes();
 Route::post('/footerform', 'MainController@footerform');
 Route::get('/new{solo}', 'MainController@new_solo');
 
+Route::get('/omsk', 'MainController@omsk')->name('omsk');
+Route::get('/tomsk', 'MainController@tomsk')->name('tomsk');
+
 

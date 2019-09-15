@@ -33,4 +33,14 @@ class MainController extends Controller
     {
       return view('pages.newsolo', compact('solo'));
     }
+    public function omsk (){
+
+    return view ('pages.omsk');    
+
+    }
+    public function tomsk (){
+
+    return view ('pages.tomsk');    
+  
+    }
 }
