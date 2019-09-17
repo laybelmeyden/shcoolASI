@@ -111,6 +111,22 @@
         margin-top: 42px;
     }
     
+    .btn_main:hover,
+    .btn_main_footer:hover,
+    .btn_main_footer_2:hover,
+    .btn_footer_submit:hover,
+    .omsk:hover,
+    .tomsk:hover {
+        -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .omsk:hover,
+    .tomsk:hover {
+        fill: #CCA2C9;
+        stroke: #453F8D;
+    }
+    
     .btn_main_footer {
         background: linear-gradient(100.14deg, #453F8D 24.56%, #CCA2C9 99.38%);
         border-radius: 60px;
@@ -611,13 +627,19 @@
         background-position: 50% 13%;
     }
     
+    .img_mero {
+        width: 100%;
+        max-width: 200px;
+    }
+    
     .grey_filter {
         width: 256px;
         height: 256px;
         overflow: hidden;
         border-radius: 50%;
         background-position: center;
-        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .sp_img_title {

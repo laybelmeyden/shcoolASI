@@ -5,8 +5,8 @@
   <title>Интерактивная школа волонтеров краеведческой работы <br>Сибирского федерального округа</title>
   <!--meta-->
   <meta charset="UTF-8">
-  <meta name="description" content="Интерактивная школа волонтеров краеведческой работы <br>Сибирского федерального округа"/>
-  <META NAME="keywords" CONTENT="Интерактивная школа волонтеров краеведческой работы <br>Сибирского федерального округа">
+  <meta name="description" content="Интерактивная школа волонтеров краеведческой работы Сибирского федерального округа"/>
+  <META NAME="keywords" CONTENT="Интерактивная школа волонтеров краеведческой работы Сибирского федерального округа">
   <META NAME="AUTHOR" CONTENT="https://vk.com/glrlcocks">
   <meta name="revisit-after" content="5 days">
   <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -14,11 +14,11 @@
 
   <!--соц сети-->
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Интерактивная школа волонтеров краеведческой работы <br>Сибирского федерального округа" />
-  <meta property="og:description" content="Интерактивная школа волонтеров краеведческой работы <br>Сибирского федерального округа" />
-  <meta property="og:image" href=""  />
-  <meta property="og:url" content="ccskm" />
-  <meta property="og:site_name" content="Интерактивная школа волонтеров краеведческой работы <br>Сибирского федерального округа" />
+  <meta property="og:title" content="Интерактивная школа волонтеров краеведческой работы Сибирского федерального округа" />
+  <meta property="og:description" content="Интерактивная школа волонтеров краеведческой работы Сибирского федерального округа" />
+  <meta property="og:image" href="https://itvolonter.ru/storage/news/August2019/Sbpp4AedkB2avsg30URN.jpg"  />
+  <meta property="og:url" content="https://itvolonter.ru/storage/news/August2019/Sbpp4AedkB2avsg30URN.jpg" />
+  <meta property="og:site_name" content="Интерактивная школа волонтеров краеведческой работы Сибирского федерального округа" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">

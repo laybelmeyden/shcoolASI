@@ -7,17 +7,21 @@
                     <p class="footer_title_1 footer_title_3">
                         Пишите, если у Вас остались вопросы
                     </p>
+                    <a href="mailto:ns@anoasi.com">
                     <p  class="footer_title_1">
                         <span class="email"><img src="assets/img/at.png"
                                 alt="email icon" /></span>ns@anoasi.com
                     </p>
+                    </a>
                     <p  class="footer_title_2">
                         <span class="phone"><img src="assets/img/telephone.png" alt="phone icon" /></span>Руководитель проекта <br> <span style="padding-left: 58px;">Владимир Шульгин <br> 
                         <span style="padding-left: 58px;">+7 (915) 275 69 69</span></span>
                     </p>
+                    <a href="https://vk.com/agenstvoasi" target="_blank">
                     <p  class="footer_title_2 footer_title_2_2">
                         <span class="phone"><img src="assets/img/vk.png" alt="phone icon" /></span>@agenstvoasi
                     </p>
+                </a>
                     <a class="btn btn-primary btn_main_footer" href="#map" role="button">Стать участником</a>
                 </div>
 

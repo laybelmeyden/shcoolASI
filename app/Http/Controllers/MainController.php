@@ -23,7 +23,7 @@ class MainController extends Controller
       );
        \Mail::send('email.mail1', $data, function($message1) use ($data)
     {
-        $mail_admin = env('MAIL_ADMIN');
+        $mail_admin = env('MAIL_ADMIN_form1');
         $message1->from($data['email'], $data['name123'], $data['mantext']);
         $message1->to($mail_admin, 'For Admin')->subject('Message from site');
      });

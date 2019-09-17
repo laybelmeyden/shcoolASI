@@ -132,13 +132,13 @@
 <h1 class="orga_title">ОРГАНИЗАТОРЫ</h1>
 </div>
 <div class="col-xl-4 col-sm-4 col-4 text-center">
-<img class="part_img" src="assets/img/SnHd0L433Ys.png" alt="">
+<a href="http://anoasi.com/"><img class="part_img" src="assets/img/SnHd0L433Ys.png" alt=""></a>
 </div>
 <div class="col-xl-4 col-sm-4 col-4 text-center">
-<img class="part_img" src="assets/img/124124124.png" alt="">
+<a href="http://rospatriotcentr.ru/"><img class="part_img" src="assets/img/124124124.png" alt=""></a>
 </div>
 <div class="col-xl-4 col-sm-4 col-4 text-center">
-<img class="part_img" src="assets/img/w_rosm.png" alt="">
+<a href="https://fadm.gov.ru"><img class="part_img" src="assets/img/w_rosm.png" alt=""></a>
 </div>
 </div>
 </div>
@@ -151,19 +151,19 @@
 </div>
 <div class="grid_part">
 <div class="text-center">
-<img class="part_img" src="assets/img/2222.png" alt="">
+<a href="http://uristomsk.ru/"><img class="part_img" src="assets/img/2222.png" alt=""></a>
 </div>
 <div class="text-center">
-<img class="part_img" src="assets/img/22222.png" alt="">
+<a href="https://va-bank.blizko.ru"><img class="part_img" src="assets/img/22222.png" alt=""></a>
 </div>
 <div class="text-center">
-<img class="part_img" src="assets/img/22.png" alt="">
+<a href="https://www.metronews.ru"><img class="part_img" src="assets/img/22.png" alt=""></a>
 </div>
 <div class="text-center">
-<img class="part_img" src="assets/img/222.png" alt="">
+<a href="https://www.om1.ru"><img class="part_img" src="assets/img/222.png" alt=""></a>
 </div>
 <div class="text-center">
-<img class="part_img" src="assets/img/22222222.png" alt="">
+<a href="https://www.rgo.ru/ru"><img class="part_img" src="assets/img/22222222.png" alt=""></a>
 </div>
 </div>
 </div>
