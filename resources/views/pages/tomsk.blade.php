@@ -53,7 +53,7 @@
 <div class="container">
 <div class="row">
 <div class="col-xl-12">
-<h3 class="speacer_title">КУРАТОРЫ</h3>
+<h3 class="speacer_title">КУРАТОР</h3>
 </div>
 <div class="col-xl-12 fl_center">
 <div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/Sorochinskiy_M_M.jpg);"></div>
@@ -69,10 +69,10 @@
 <div class="container">
 <div class="row">
 <div class="col-xl-12 text-center">
-    <a href=""><p class="anketa"><span class="icons_anketa"><img src="assets/img/surface1.png" alt="" style="margin-right: 42px;"></span>ПОСМОТРЕТЬ ПРОГРАММУ</p></a>
+    <a href=""><p class="anketa"><span class="icons_anketa"><img src="assets/img/surface1.png" alt="" style="margin-right: 42px;"></span>СКОРО ТУТ ПОЯВИТСЯ ПРОГРАММА</p></a>
 </div>
 <div class="col-xl-12 text-center">
-<a class="btn btn-primary btn_main_footer_2" href="/#map" role="button">Стань участником прямо сейчас</a>
+<a class="btn btn-primary btn_main_footer_2" href="https://anoasi.timepad.ru/event/1068162/" role="button">Стань участником прямо сейчас</a>
 </div>
 </div>
 </div>
