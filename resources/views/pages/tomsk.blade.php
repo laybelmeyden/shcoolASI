@@ -6,14 +6,14 @@
 <div class="row">
 <div class="col-xl-12">
 <h1 class="city_title">Интерактивная школа волонтеров краеведческой работы СФО</h1>
-<h3 class="date_title">Томск 23 октября 2019</h3>
+<h3 class="date_title">Томск 22 октября 2019</h3>
 </div>
 <div class="col-xl-12">
 <div class="back_city">
 <p class="city_pop">Место проведения</p>
 <p class="city_down_pop"><span class="city_icon">
 <img src="assets/img/pin.png" alt="" class="city_icon">
-</span>Томский государственный педагогический колледж, г. Томск, ул. Крылова, 12а<br><br>
+</span>Первый Музей Славянской Мифологии, по адресу Томск, ул. Загорная, 12<br><br>
 Куратор школы в Томске: Михаил Михайлович Сорочинский, главный специалист Департамента профессионального образования Томской области, +7 (3822) 46-79-35, e-mail: sorochinskiymm@dpo.tomsk.gov.ru
 <br><br>
 <a href="https://tomsk.gov.ru">
@@ -21,7 +21,7 @@
 </a>
 </p>
 </div>
-<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A62151a1f5d4ec223349429522cb1076078376f711bc6fa9b3cb35380a3a8f71d&amp;source=constructor" width="100%" height="750px" frameborder="0"></iframe>
+<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2891b93b6bd34b0d349ff06fe57b6eb6ada972c95a5856b982e6733919435f94&amp;source=constructor" width="100%" height="750px" frameborder="0"></iframe>
 </div>
 </div>
 </div>
@@ -57,7 +57,7 @@
 </div>
 <div class="col-xl-12 fl_center">
 <div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/Sorochinskiy_M_M.jpg);"></div>
-<p class="sp_name">Михаил Сорочинский</p>
+<p class="sp_name">Михаил Михайлович Сорочинский</p>
 <p class="opis_name">Главный специалист Департамента профессионального образования Томской области
     <br><br>
     +7 (3822) 46-79-35<br> e-mail: sorochinskiymm@dpo.tomsk.gov.ru

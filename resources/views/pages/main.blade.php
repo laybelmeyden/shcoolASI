@@ -165,6 +165,9 @@
 <div class="text-center">
 <a href="https://www.rgo.ru/ru"><img class="part_img" src="assets/img/22222222.png" alt=""></a>
 </div>
+<div class="text-center">
+<a href="http://www.slav-museum.ru/"><img class="part_img" src="assets/img/slav-museum_logo2017_main.png" alt=""></a>
+</div>
 </div>
 </div>
 </div>

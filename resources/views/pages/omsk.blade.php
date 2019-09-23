@@ -57,7 +57,7 @@
 </div>
 <div class="col-xl-12 fl_center">
 <div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/IMG_8898.jpg);"></div>
-<p class="sp_name">Екатерина Андреевна</p>
+<p class="sp_name">Верлова Екатерина Андреевна</p>
 <p class="opis_name">эксперт отдела поддержки общественных инициатив управления молодежной политики Минспорта Омской области
     <br><br>
     +7 (3812) 24-76-25 <br>e-mail: everlova@bk.ru
