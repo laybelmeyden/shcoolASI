@@ -33,7 +33,7 @@
             </p>
         </div>
         <div class="col-xl-7">
-        <p class="about_p" style="margin-left: 110px;
+        <p class="about_p about_ul" style="margin-left: 110px;
     padding-right: 40px;
     padding-bottom: 30px;">
         Волонтеры пройдут обучение по использованию в краеведческой работе, популяризации исторических и географических знаний следующих технологий и технических средств:
