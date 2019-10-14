@@ -102,26 +102,26 @@
                 <h1 class="body_main_news">НОВОСТИ</h1>
             </div>
         <div class="owl-carousel">
-          @foreach ($news as $new)
-  <div class="flex_center">
-  <a href="/new{{ $new->id }}">
-  <div class="card crd_news">
-  <div class="card_img_cropp">
-  <img src="/storage/{{ $new->img }}" class="card-img-top" alt="...">
-  </div>
-  <div class="card-body">
-    <div class="zag_cropp">
-    <h5 class="zag">{{ $new -> main_title}}</h5>
-    </div>
-    <div class="body_cropp">
-    <p class="body">{{ $new -> mini_title }}</p>
-    </div>
-    <a href="/new{{ $new->id }}" class="btn_a">читать <span><img class="img_news_btn" src="assets/img/eclipsee.png" alt=""></span></a>
-  </div>
-  </div>
-  </a>
-  </div>
-  @endforeach
+        @foreach ($news as $new)
+        <div class="flex_center">
+        <a href="/new{{ $new->id }}">
+        <div class="card crd_news">
+        <div class="card_img_cropp">
+        <img src="/storage/{{ $new->img }}" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <div class="zag_cropp">
+            <h5 class="zag">{{ $new -> main_title}}</h5>
+            </div>
+            <div class="body_cropp">
+            <p class="body">{{ $new -> mini_title }}</p>
+            </div>
+            <a href="/new{{ $new->id }}" class="btn_a">читать <span><img class="img_news_btn" src="assets/img/eclipsee.png" alt=""></span></a>
+        </div>
+        </div>
+        </a>
+        </div>
+        @endforeach
   </div>
   </div>
   </div>

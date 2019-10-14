@@ -8,8 +8,7 @@ use App\News;
 class MainController extends Controller
 {
     public function main (){
-        $news = News::latest()
-        ->get();
+        $news = News::latest()-> where('sts', 'option1')->get();
     return view ('pages.main', compact('news'));    
     }
     public function footerform(Request $request)
