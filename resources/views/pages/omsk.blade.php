@@ -21,7 +21,7 @@
 </a>
 </p>
 </div>
-<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A33716433d7bfc25d1c57e4cf5c64c671440ab73fd253a8e73d26ca3ff69b0de6&amp;source=constructor" width="100%" height="900px" frameborder="0"></iframe>
+<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A71ad521d8b86d5e1c0cc2afca814dc9a497663d0cc9f7ae0119560f3ffbac8b4&amp;source=constructor" width="100%" height="900px" frameborder="0"></iframe>
 </div>
 </div>
 </div>
@@ -32,19 +32,14 @@
 <h3 class="speacer_title">СПИКЕРЫ</h3>
 </div>
 <div class="col-xl-4 fl_center">
-<div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/sp2.png);"></div>
-<p class="sp_name">Поскряков Андрей</p>
-<p class="opis_name">Консультант по клиентоориентированности</p>
+<div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/Bebenin_Matvey.png);"></div>
+<p class="sp_name">Матвей Бебенин</p>
+<p class="opis_name">Full stack разработчик, Rutube</p>
 </div>
 <div class="col-xl-4 fl_center">
-<div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/21.png);"></div>
-<p class="sp_name">Кузнецова Марина</p>
-<p class="opis_name">Консультант по фандрайзингу и КСО проекта Social Projects Group</p>
-</div>
-<div class="col-xl-4 fl_center">
-<div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/24.png);"></div>
-<p class="sp_name">Москвина Анастасия</p>
-<p class="opis_name">Эксперт Центра развития некоммерческих организаций и Центра социального предпринимательства и социальных инноваций НИУ ВШЭ (Москва)</p>
+<div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/5qPuupz3_RU.jpg);"></div>
+<p class="sp_name">Трубицына Виктория</p>
+<p class="opis_name">ООО «Коптер Экспресс Технологии» (COEX), технический писатель</p>
 </div>
 </div>
 </div>

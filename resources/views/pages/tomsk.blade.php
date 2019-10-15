@@ -69,7 +69,9 @@
 <div class="container">
 <div class="row">
 <div class="col-xl-12 text-center">
-    <a href=""><p class="anketa"><span class="icons_anketa"><img src="assets/img/surface1.png" alt="" style="margin-right: 42px;"></span>СКОРО ТУТ ПОЯВИТСЯ ПРОГРАММА</p></a>
+    <a href="https://vk.com/doc95748576_519878302?hash=75e2d46dfa6f4b443f&dl=5087191d4bba8a69ca">
+    <p class="anketa"><span class="icons_anketa"><img src="assets/img/surface1.png" alt="" style="margin-right: 42px;">
+    </span>СКАЧАТЬ ПРОГРАММУ</p></a>
 </div>
 <div class="col-xl-12 text-center">
 <a class="btn btn-primary btn_main_footer_2" href="https://anoasi.timepad.ru/event/1068162/" role="button">Стань участником прямо сейчас</a>
