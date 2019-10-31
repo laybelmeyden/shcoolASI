@@ -41,6 +41,16 @@
 <p class="sp_name">Трубицына Виктория</p>
 <p class="opis_name">ООО «Коптер Экспресс Технологии» (COEX), технический писатель</p>
 </div>
+<div class="col-xl-4 fl_center">
+<div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/M2OWo82DVyY.jpg);"></div>
+<p class="sp_name">Александра Соколова</p>
+<p class="opis_name">Сертифицированный специалист по управлении проектам IPMA-СОВНЕТ, дизайнер, преподаватель, тренер ШЛР «Вверх»</p>
+</div>
+<div class="col-xl-4 fl_center">
+<div class="grey_filter" style="background-image:linear-gradient(to top, rgba(120, 136, 197, 0.33), rgba(120, 136, 197, 0.33)),url(assets/img/Statva.jpg);"></div>
+<p class="sp_name">Статва Анна</p>
+<p class="opis_name">Заместитель Министра культуры Омской области</p>
+</div>
 </div>
 </div>
 </section>
@@ -64,7 +74,11 @@
 <div class="container">
 <div class="row">
 <div class="col-xl-12 text-center">
-    <a href=""><p class="anketa"><span class="icons_anketa"><img src="assets/img/surface1.png" alt="" style="margin-right: 42px;"></span>СКОРО ТУТ ПОЯВИТСЯ ПРОГРАММА</p></a>
+    <a href="https://vk.com/doc95748576_521835996?hash=6f689ac698aa652fb2&dl=0668384d87443a801e">
+    <p class="anketa"><span class="icons_anketa">
+    <img src="assets/img/surface1.png" alt="" style="margin-right: 42px;">
+    </span>СКАЧАТЬ ПРОГРАММУ</p>
+    </a>
 </div>
 <div class="col-xl-12 text-center">
 <a class="btn btn-primary btn_main_footer_2" href="https://anoasi.timepad.ru/event/1068186/#register" role="button">Стань участником прямо сейчас</a>
